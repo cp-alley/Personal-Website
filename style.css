@@ -1,16 +1,9 @@
-/* platinum: #e5e6e9
-gray: #82868c
-raisin-black: #1f252f
-mantis: #7bc950
-glaucous: #547aa5
-bittersweet: #ef5b5b */
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #e5e6e9;
+  background-color: #1f252f;
   color: #1f252f;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
@@ -78,6 +71,10 @@ main {
   flex-direction: column;
 }
 
+section.home {
+  background-color: #e5e6e9;
+}
+
 article {
   width: 80%;
   margin: 0 auto;
@@ -130,7 +127,45 @@ section.about {
   color: #e5e6e9;
 }
 
+.resume {
+  display: block;
+  margin: 40px auto;
+  background-color: #fa9500;
+  color: #1f252f;
+  width: 30%;
+  padding: 12px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #1f252f;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.resume:hover {
+  background-color: #f6ae2d;
+}
+
 section.contact {
   background-color: #1f252f;
   color: #e5e6e9;
+  margin-bottom: 40px;
+}
+
+ul.contact {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.contact > li {
+  font-size: 24px;
+  list-style: none;
+  padding-top: 5px;
+}
+
+.contact > li > a:hover {
+  color: #fa9500;
+}
+
+span:hover {
+  color: #fa9500;
 }
